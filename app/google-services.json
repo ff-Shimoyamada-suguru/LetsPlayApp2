@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623333433076",
+    "project_id": "letsplay-9ef4f",
+    "storage_bucket": "letsplay-9ef4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623333433076:android:96875ff802f3a3831988a1",
+        "android_client_info": {
+          "package_name": "com.example.letsplayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623333433076-0u76qdc314rirfu8u1uu61pl27j5lae4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1Sj2pdZ5inyGbGfso-Zjb3P8htt51WiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623333433076-0u76qdc314rirfu8u1uu61pl27j5lae4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
