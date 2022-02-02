@@ -22,8 +22,11 @@ class MainActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
         val user = Firebase.auth.currentUser?.email
-        user?.let {
-            name.text = "You're $user"
+        if (user != null) {
+                    name.text = "You're $user"
+        } else {
+            val intent = Intent(this, AuthActivity::class.java)
+            startActivity(intent)
         }
 
 
@@ -31,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         buttonLogout.setOnClickListener {
             Firebase.auth.signOut()
 //            finish()
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, AuthActivity::class.java)
             startActivity(intent)
         }
     }
